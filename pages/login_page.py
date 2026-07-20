@@ -19,8 +19,8 @@ class LoginPage(BasePage):
     def open(self):
         self.page.goto(self.base_url)
 
-    def enter_username(self, username):
-        self.fill(self.username_input, username)
+    def enter_username(self,username):
+        self.fill(self.username_input,username)
 
     def enter_password(self, password):
         self.fill(self.password_input, password)
