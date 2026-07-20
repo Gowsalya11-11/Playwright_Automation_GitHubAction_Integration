@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Pytest / test artifacts ---
+.pytest_cache/
+report.html
+reports/
+test-results/
+*.log
+
+# --- Playwright specific ---
+node_modules/
+playwright-report/
+test-results/
+.playwright/
+playwright/.cache/
+
+# --- Environment variables / secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Coverage reports ---
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# --- OS files ---
+Thumbs.db
+desktop.ini
+
+# --- Docker (optional, if you generate local build artifacts) ---
+*.pid

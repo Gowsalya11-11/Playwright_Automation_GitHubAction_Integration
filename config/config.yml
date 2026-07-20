@@ -1,0 +1,5 @@
+browser: chromium
+headless: true
+base_url: "https://www.saucedemo.com/"
+timeout: 5000
+record_video: false
